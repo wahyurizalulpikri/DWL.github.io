@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Dokumentasi 1</title>
+
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+    background: linear-gradient(135deg, #6FC3FF, #D8B4FF, #ffffff);
+    background-attachment: fixed;
+}
+
+.video-card {
+    max-width: 780px;
+    margin: auto;
+    padding: 25px;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+video {
+    width: 100%;
+    border-radius: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="video-card">
+        <h2 class="fw-bold mb-3 text-center">Video Dokumentasi 1</h2>
+
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+
+        <h5 class="mt-4 fw-bold">Deskripsi Video:</h5>
+        <p>
+            Video dokumentasi ini merekam proses kegiatan secara lengkap, mulai 
+            dari persiapan hingga pelaksanaan. Resolusi video dijaga agar tetap 
+            tajam saat diputar di layar besar.
+        </p>
+        <a href="index.html" class="btn btn-primary btn-sm">
+            Kembali ke Beranda
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
